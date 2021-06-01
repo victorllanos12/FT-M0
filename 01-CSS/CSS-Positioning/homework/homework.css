@@ -15,24 +15,73 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#ejercicioUno{
+    display: block;
+    text-align: center;
+}
 
-
+#ejercicioDos{
+    visibility: hidden;
+    /* display: none; */
+}
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres{
+    margin-top: 100px;
+    margin-left: 200px;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 
+#ejercicioCuatro{
+    display: block;
+    position: absolute;
+    margin-top: -1570px;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
-
+#ejercicioCinco{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /* Ejercicio 6. */
+
+#ejercicioCinco{
+    display: flex;
+    flex-direction: row-reverse;
+} 
+
+/* Ejercicio 7. */
+
+#ejercicioSiete{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#elementouno{
+    background: rgb(199, 25, 25);
+    height: 300px;
+}
+#elementodos{
+    background: rgba(53, 10, 151, 0.87);
+    height: 150px;
+}
+#elementotres{
+    background: rgb(222, 235, 49);
+}
+#elementocuatro{
+    background: rgb(20, 206, 51);
+    height: 200px;
+}
