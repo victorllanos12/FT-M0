@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(35, 35, 221);
+    background: black;
+    text-shadow: 10px 10px 10px #ccc;
+    height: 60px; 
+    padding-top: 15px;
+}
+
+.thirdDiv ul li a img{
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.thirdDiv{
+    height: 600px;
+    width: 500px;
+    background: black;
+    padding: 50px;
+    border: 3px solid red;
+}
+
+#spanId{
+    font-size: 18px;
+    padding: 50px;
+    margin: auto;
+    
+}
+
+.divClass{
+    margin: 0px auto;
+    text-align: center;
+} 
